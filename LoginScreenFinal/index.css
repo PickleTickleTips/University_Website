@@ -1,0 +1,88 @@
+body{
+    background-image: url(log.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    size: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    border: 5px solid darkslateblue; 
+    height: 96vh;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 80px; 
+    color: antiquewhite;
+}
+
+#head{
+    text-align: center;
+    color: deeppink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginArea{
+    background-color: blueviolet;
+    width: 300px;
+    height: 350px;
+    background-image: url(log2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;    
+    border-radius: 10px;
+    border-color: purple;
+
+}
+
+.userinput{
+    border-radius: 6px;
+    width: 200px;
+    height: 20px;
+    background-color: lightpink;
+}
+
+.userlabel{
+    color: darksalmon;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    border-color:lightcoral;
+    border-radius: 6px;
+    background-color: lightcoral;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px 20px;
+}
+
+#btnLogin:hover{
+    background-color: palevioletred;
+}
+
+.create{
+    color: deeppink;
+    font-size: 15px;
+    text-align:center;
+}
+
+.create:hover{
+    cursor: pointer;
+}
+
+.account{
+    background-color: rgba(255, 235, 205, 0);
+    border: none;
+}
+
+.account:hover{
+    cursor: pointer;
+}
