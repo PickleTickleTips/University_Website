@@ -1,0 +1,77 @@
+body{
+    background-image: url(log.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    size: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    border: 5px solid darkslateblue; 
+    height: 96vh;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 68px; 
+}
+
+#head{
+    text-align: center;
+    color: deeppink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginArea{
+    background-color: blueviolet;
+    width: 300px;
+    height: 590px;
+    background-image: url(log2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;    
+    border-radius: 10px;
+    border-color: purple;
+
+}
+
+.userinput{
+    border-radius: 6px;
+    width: 200px;
+    height: 20px;
+    background-color: lightpink;
+}
+
+.userlabel{
+    color: darksalmon;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnStyle{
+    border-color:lightcoral;
+    border-radius: 6px;
+    background-color: lightcoral;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px 20px;
+}
+
+#btnBack{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+#btnBack:hover{
+    background-color: darkorchid;
+}
+
+.btnStyle:hover{
+    background-color: palevioletred;
+}
